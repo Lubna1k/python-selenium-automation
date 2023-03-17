@@ -3,8 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from behave import when, given, then
 from time import sleep
 
-#driver = webbrowser.Chrome (executable_path='./chromedriver.exe')
-#driver.get('https://www.amazon.com/')
+
 OPTIONS = (By.CSS_SELECTOR, "#variation_color_name li")
 CURRENT = (By.CSS_SELECTOR, "#variation_color_name .selection")
 

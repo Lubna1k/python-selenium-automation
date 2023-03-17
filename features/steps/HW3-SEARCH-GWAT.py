@@ -1,6 +1,10 @@
+#from selenium.webdriver.common.by import By
+#from behave import given, when, then
+#from  selenium.webdriver.chrome.service import service
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-from behave import given, when, then
-from  selenium.webdriver.chrome.service import service
+
+driver = webdriver.Chrome(executable_path='./chromedriver.exe')
 
 from time import sleep
 
