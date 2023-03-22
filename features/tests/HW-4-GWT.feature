@@ -6,7 +6,7 @@
   Scenario: Verify that Bestsellers page shows five categories
     Given Open Amazon Best Sellers page
     Then Verify that Bestsellers categories are present
-    Then Verify that Best Sellers has 5 links
+    Then Verify that Best Sellers has '5' links
 
 
 
